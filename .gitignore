@@ -1,0 +1,13 @@
+# Perfis de usuário preenchidos (contém dados pessoais/internos)
+# Convenção: *-profile.md = perfil preenchido, user-profile-template.md = template (versionado)
+config/*-profile.md
+
+# Outputs gerados (contêm dados pessoais de avaliação)
+output/
+
+# Secrets e envs locais
+.env
+*.secret
+
+# Configuração local do agente (permissões por máquina)
+.claude/settings.local.json
